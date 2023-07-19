@@ -25,7 +25,6 @@ from ethon.telefunc import force_sub
 ft = f"To use this bot you've to join @{fs}."
 
 batch = []
-batch_ = []
 
 async def get_pvt_content(event, chat, id):
     msg = await userbot.get_messages(chat, ids=id)
